@@ -20,6 +20,8 @@ mutation {
 
 6. Refresh `localhost:4000/results` to see the vote registered in the graph.
 
+## FAQ
+
 **Q: Can we live in a world where this app needs to be refreshed every time there is a change?**
 
 A: No, we cannot. We need to enable GraphQL Subscriptions for the server.
