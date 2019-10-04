@@ -1,0 +1,19 @@
+{
+  "name": "vote",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install": "cd ./api; npm i; cd ../client; npm i; cd ..;",
+    "start": "node ./api"
+  },
+  "author": "Moon Highway, LLC",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server-express": "^2.9.4",
+    "express": "^4.17.1",
+    "graphql": "^14.5.8",
+    "graphql-playground-middleware-express": "^1.7.12",
+    "nodemon": "^1.19.3"
+  }
+}
